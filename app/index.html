@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Platinum Road — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="titleblock">
+    <h1>Platinum Road</h1>
+    <p class="subtitle">Grand Theft Auto VI · PlayStation 5 · 55 trophies · offline guide &amp; tracker</p>
+    <p class="makeup" id="makeup">1 Platinum · 2 Gold · 6 Silver · 46 Bronze · 28 hidden</p>
+  </div>
+  <div class="progress" id="progressBox" aria-label="Progress">
+    <div class="bigcount"><span id="earnedCount">0</span><span class="of"> / 55 earned</span></div>
+    <div class="points"><span id="pointsCount">0</span> / 1,230 pts</div>
+    <div class="bar"><div class="fill" id="progressFill" style="width:0%"></div></div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Views">
+  <a href="#/" data-view="checklist" class="tab">Checklist</a>
+  <a href="#/roadmap" data-view="roadmap" class="tab">Roadmap to Platinum</a>
+  <a href="#/missables" data-view="missables" class="tab">Missables</a>
+</nav>
+
+<div class="toolbar" id="toolbar">
+  <label class="search">Search <input id="search" type="search" placeholder="Trophy name or word…" autocomplete="off"></label>
+  <div class="chips" id="kindChips" role="group" aria-label="Filter by kind"></div>
+  <label>Grade
+    <select id="gradeFilter">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label>Show
+    <select id="earnedFilter">
+      <option value="all">All trophies</option>
+      <option value="earned">Earned</option>
+      <option value="todo">Not yet earned</option>
+    </select>
+  </label>
+  <label class="spoiler"><input id="spoilerToggle" type="checkbox" checked> Hide story trophies until earned</label>
+  <div class="actions">
+    <button id="exportBtn" type="button">Export progress</button>
+    <label class="importBtn">Import progress <input id="importInput" type="file" accept="application/json"></label>
+    <button id="resetBtn" type="button">Reset</button>
+  </div>
+</div>
+
+<main>
+  <section id="view-checklist" class="view">
+    <div class="layout">
+      <div class="listwrap">
+        <p class="listmeta" id="listMeta"></p>
+        <table class="list">
+          <thead><tr><th class="c-earned">Earned</th><th>Trophy</th><th class="c-grade">Grade</th><th class="c-target">Target</th><th class="c-kind">Kind</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <aside class="detail" id="detail" aria-label="Trophy guide"></aside>
+    </div>
+  </section>
+
+  <section id="view-roadmap" class="view" hidden>
+    <h2>Roadmap to the Platinum</h2>
+    <p class="lede">PowerPyx rates the platinum 4/10 at roughly 200 hours, with A Long Road (100% completion) the hardest step. The story runs five chapters, about 60–80 hours. Nothing needs multiplayer, DLC or online play. Work the phases in order — each phase lists the trophies it covers.</p>
+    <div class="warn"><strong>Do this first:</strong> in Chapter 1, meditate at home the first time it is offered — Positive Mental Attitude is the only trophy reported as potentially missable, and that first spot is gone after Chapter 1. And never turn on a cheat: cheats disable trophies and saving.</div>
+    <ol class="phases">
+      <li>
+        <h3>Phase 1 — Play the story <span class="phasecount">12 trophies</span></h3>
+        <p>Chapters 1–5 and the final mission. Every story trophy unlocks automatically and cannot be missed — just play. Meditate at home in Chapter 1 while you are there.</p>
+        <p class="chips-line"><a href="#/trophy/2">Just Like Paradise</a><a href="#/trophy/3">Paradise Lost</a><a href="#/trophy/4">T**s Ass Drug Money</a><a href="#/trophy/5">Vice City, Baby!</a><a href="#/trophy/6">Top Of The World, Ma</a><a href="#/trophy/7">You Gotta Know When to Get Off</a><a href="#/trophy/8">Trust</a><a href="#/trophy/9">Break the Bank</a><a href="#/trophy/10">Family Matters</a><a href="#/trophy/11">DWNFALL</a><a href="#/trophy/12">Hi-Jacked</a><a href="#/trophy/13">Snow Storm</a></p>
+      </li>
+      <li>
+        <h3>Phase 2 — Stranger strands <span class="phasecount">7 trophies</span></h3>
+        <p>Work the stranger strands as they open during and after the story — Andy, Kenton, Billy, Randy and Tyrone, plus Bret's hunt. Finishing 8 strands earns the silver umbrella trophy. A quest giver who goes quiet during the story comes back later.</p>
+        <p class="chips-line"><a href="#/trophy/22">Road to Rehabilitation</a><a href="#/trophy/23">This Was No Boat Accident</a><a href="#/trophy/24">The Lone Rider</a><a href="#/trophy/26">Supply &amp; Demand</a><a href="#/trophy/27">Spin On This!</a><a href="#/trophy/29">Fair Game</a><a href="#/trophy/25">Strangers &amp; Freaks</a></p>
+      </li>
+      <li>
+        <h3>Phase 3 — Activities &amp; challenges <span class="phasecount">10 trophies</span></h3>
+        <p>Sample everything and chase the counts: gold at all 42 shooting range challenges, 250 stunts, 20 different races, a drone race won at every location, fishing against Cal, one arcade game, bowling, 50 challenges — and all 18 meditation spots.</p>
+        <p class="chips-line"><a href="#/trophy/15">Cunning Stunts</a><a href="#/trophy/16">Master of None</a><a href="#/trophy/17">The Shootist</a><a href="#/trophy/18">Top Fun</a><a href="#/trophy/19">Earn Cash, Not Kudos</a><a href="#/trophy/20">Baited My Tackle</a><a href="#/trophy/21">Stick Fiddler</a><a href="#/trophy/28">Positive Mental Attitude</a><a href="#/trophy/32">One Last Thing</a><a href="#/trophy/46">Let’s Go Bowling</a></p>
+      </li>
+      <li>
+        <h3>Phase 4 — Collectibles, properties &amp; the map <span class="phasecount">6 trophies</span></h3>
+        <p>The long tail: 3 card sets, WAiNK at 100 locations, 100 vehicles discovered, all 52 areas of Leonida, all 8 garages, 10 vehicles on the Scooter Bros app. Pick things up as you travel — do not leave it all to the end.</p>
+        <p class="chips-line"><a href="#/trophy/30">Don't Touch My Deck</a><a href="#/trophy/31">You WAiNKer!</a><a href="#/trophy/35">Whip It Good</a><a href="#/trophy/42">The Goodtime State</a><a href="#/trophy/54">Little Boxes</a><a href="#/trophy/55">On the Spot</a></p>
+      </li>
+      <li>
+        <h3>Phase 5 — Robberies &amp; the underworld <span class="phasecount">10 trophies</span></h3>
+        <p>Five bank vaults, an armored truck, a jewelry store done clean, one illegal operation for each of the 9 gangs — plus the partner jobs, a tank encounter and a melee drive-by. Plan each getaway before the job.</p>
+        <p class="chips-line"><a href="#/trophy/33">Hot Together</a><a href="#/trophy/34">Retail Therapy</a><a href="#/trophy/36">Gunslinger</a><a href="#/trophy/38">Challenging Tank</a><a href="#/trophy/39">Sneakthief</a><a href="#/trophy/40">Maximum Withdrawal</a><a href="#/trophy/41">A Classic Blitz Play</a><a href="#/trophy/43">Pest Control</a><a href="#/trophy/45">Capital Offense</a><a href="#/trophy/51">Ten Pin</a></p>
+      </li>
+      <li>
+        <h3>Phase 6 — Money, moments &amp; the platinum <span class="phasecount">10 trophies</span></h3>
+        <p>Launder $250,000, spend $100,000, and let the odd moments find you — a cocktail on Ocean Beach, a partnership moment, 500 choices, a second try, something strange, an unscheduled departure from VCIA. Then finish the 100% checklist and the platinum is yours.</p>
+        <p class="chips-line"><a href="#/trophy/44">In The Beginning…</a><a href="#/trophy/47">Personal Best</a><a href="#/trophy/48">Actions Speak Louder</a><a href="#/trophy/49">Bad Luck, I Guess</a><a href="#/trophy/50">The Truth Is Out There</a><a href="#/trophy/37">Catch Me If You Can</a><a href="#/trophy/52">Dime on the Dollar</a><a href="#/trophy/53">Treat Yo Self</a><a href="#/trophy/14">A Long Road</a><a href="#/trophy/1">Vice Got a Price!</a></p>
+      </li>
+    </ol>
+    <p class="srcnote">Roadmap facts: PowerPyx trophy guide &amp; roadmap — difficulty, hours, chapter count, 100% leniency, cheats. Trophy names, descriptions and grades: the official list on Exophase, cross-checked with PSNProfiles.</p>
+  </section>
+
+  <section id="view-missables" class="view" hidden>
+    <h2>Missables</h2>
+    <p class="lede">One trophy is reported as potentially missable. Everything else can be finished after the story.</p>
+    <div class="misscard">
+      <h3><span class="flag missable">MISSABLE</span> Positive Mental Attitude <span class="gradechip bronze">Bronze</span></h3>
+      <p class="official">Official description: “Meditate at every spot across Leonida.” — 18 spots in 10 locations.</p>
+      <p>PowerPyx flags this as the only potentially missable trophy: the first meditation spot is offered at home in Chapter 1 and becomes permanently unavailable after that chapter. Meditate the first time it is offered, then find the other 17 spots as you explore. If you are past Chapter 1 and never meditated at home, that spot is gone — check the guide before starting a fresh run.</p>
+      <p class="srcnote">Source: PowerPyx, GTA 6 Trophy Guide &amp; Roadmap. <a href="#/trophy/28">Open the full guide →</a></p>
+    </div>
+    <div class="okcard">
+      <h3>Everything else is safe</h3>
+      <ul>
+        <li><strong>Story trophies (12) are automatic</strong> and cannot be missed — they unlock when their chapter or mission ends. (PowerPyx)</li>
+        <li><strong>There is no mission replay — and no mission medals</strong> — so nothing hides behind a hidden objective. (PowerPyx)</li>
+        <li><strong>Quest givers come back:</strong> some go temporarily unavailable during the story and return later, so a strand that vanishes is not lost. (PowerPyx)</li>
+        <li><strong>Side content stays open</strong> after the story, and progress made during the story counts toward the 100% checklist. (PowerPyx)</li>
+      </ul>
+    </div>
+    <div class="okcard">
+      <h3>Save smart</h3>
+      <ul>
+        <li>Keep a few manual saves before the big missions — the usual insurance while the game is a day old and the missable list is still settling. (General advice)</li>
+        <li><strong>Never turn on a cheat:</strong> cheats disable trophies, and you cannot save once one is used. (PowerPyx, GameSpot, PC Gamer)</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <h2>Sources &amp; honesty</h2>
+  <ul id="sourceList"></ul>
+  <p>Built from the official list on 19 November 2026, the day Grand Theft Auto VI released. The trophy names, descriptions, grades and PSN progress targets come from the official list on Exophase, cross-checked with PSNProfiles; the hidden / visible split from planetgta6; difficulty, hours, the missable warning and the 100% details from PowerPyx. The guides are our own words, written from the official descriptions and those cited sources — nothing here was checked in the game yet. Where a place or a step is not pinned down by the official description, the guide says so instead of inventing one. Exact steps will be pinned down as players confirm them.</p>
+  <p class="demo-note" id="demoNote" hidden>This view is seeded with example progress (13 of 55 earned) for the screenshots — add <code>?demo=1</code> to any page to see it. Your own progress is saved in this browser only.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
